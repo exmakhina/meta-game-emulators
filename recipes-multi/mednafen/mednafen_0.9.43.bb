@@ -9,7 +9,6 @@ SRC_URI = "https://mednafen.github.io/releases/files/mednafen-0.9.43.tar.xz \
            file://fix_configure_errors.patch \
            file://fix_sdl_flags_error.patch \
            file://fix_cast_compiler_error.patch \
-	   file://fix_overloaded_abs_error.patch \
           "
 
 SRC_URI[md5sum] = "435376f484bdd7b5adf9820616d40a48"
