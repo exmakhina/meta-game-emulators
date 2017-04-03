@@ -12,3 +12,8 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     uae4all2 \
     mednafen \
     "
+
+IMAGE_INSTALL += " \
+    kodi \
+    kodi-startup \
+"
