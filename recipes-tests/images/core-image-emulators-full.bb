@@ -14,6 +14,8 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     "
 
 IMAGE_INSTALL += " \
+    openssh \
+    networkmanager \
     kodi \
     kodi-startup \
 "
