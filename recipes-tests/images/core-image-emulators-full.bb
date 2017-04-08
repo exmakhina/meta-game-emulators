@@ -4,6 +4,8 @@ SUMMARY = "An image with all videogame emulators enabled"
 
 LICENSE = "MIT" 
 
+IMAGE_FEATURES += "splash package-management x11-base x11-sato ssh-server-openssh hwcodecs"
+
 CORE_IMAGE_EXTRA_INSTALL += " \
     snes9x \
     snes9x-sdl \
@@ -14,8 +16,6 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     "
 
 IMAGE_INSTALL += " \
-    openssh \
-    networkmanager \
     kodi \
     kodi-startup \
 "
