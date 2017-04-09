@@ -16,6 +16,8 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     "
 
 IMAGE_INSTALL += " \
+    xorg-minimal-fonts \
+    xorg-fonts-100dpi \
     kodi \
     kodi-startup \
 "
